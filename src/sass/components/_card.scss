@@ -1,4 +1,3 @@
-$card-gap: 12px;
 
 .cards-list {
   display: flex;
@@ -15,7 +14,7 @@ $card-gap: 12px;
   margin: $card-gap;
   margin-left: 125px;
   margin-right: 25px;
-  margin-top: 20px;
+  margin-top: 10px;
   
   overflow: hidden;
   position: relative;
@@ -63,7 +62,7 @@ $card-gap: 12px;
       }
     }
   }
-
+/*
   &-byline,
   &-category {
     font-family: $font-mono;
@@ -73,7 +72,7 @@ $card-gap: 12px;
     text-transform: uppercase;
   }
 
-  &-category {
+ /* &-category {
     border-bottom: 3px solid white;
     padding-bottom: 2px;
     width: min-content;
