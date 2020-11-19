@@ -1,9 +1,12 @@
 .site-header {
   background-color: green;
-  
+  position: fixed;
+  display: inline-block;
+  z-index: 1;
   
   
 }
+
 
 .site-name{
   display: flex;
