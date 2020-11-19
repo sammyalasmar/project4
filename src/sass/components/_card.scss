@@ -6,14 +6,15 @@ $card-gap: 12px;
   justify-content: space-between;
   margin-left: -$card-gap;
   margin-right: -$card-gap;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .card {
-  border-radius: 0 0 6px 6px;
-  border-top: 3px solid $color-slate;
+  /*border-top: 3px solid $color-slate;*/
   margin: $card-gap;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 125px;
+  margin-right: 75px;
   margin-top: 20px;
   
   overflow: hidden;
@@ -27,7 +28,7 @@ $card-gap: 12px;
 
   @media (min-width: 680px) {
     flex: 1 0 auto;
-    width: 30%;
+    width: 35%;
   }
 
   &-content {
