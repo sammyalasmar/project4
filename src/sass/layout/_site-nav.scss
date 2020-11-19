@@ -1,0 +1,26 @@
+.site-nav {
+  background-color: red;
+
+  
+
+  a {
+    
+    color: $color-text-body;
+    display: inline;
+    font-family: sans-serif;
+    margin-bottom: -3px;
+    padding: 25px;
+    text-decoration: none;
+    transition: $transition-default;
+
+    &:hover,
+    &:focus {
+      border-bottom-color: rgba($color-slate, 70%);
+    }
+  }
+
+  [aria-current] a {
+    border-bottom-color: $color-slate;
+    cursor: default;
+  }
+}
