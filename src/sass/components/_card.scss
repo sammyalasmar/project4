@@ -101,33 +101,5 @@ $card-gap: 12px;
       background: linear-gradient(130deg, $color-mint, white);
     }
   }
-
-  $patterns: "signal",
-  "flip-diamonds",
-  "overlap-hex",
-  "pie-factory",
-  "jupiter";
-
-  $patt-length: length($patterns);
-
-  @each $patt in $patterns {
-    $i: index($patterns, $patt);
-
-    &:nth-of-type(#{$patt-length}n + #{$i})::after {
-      @include pattern(#{$patt});
-    }
-  }
-
-
-  &:hover {
-    &::before {
-      opacity: 0.88;
-    }
-
-    @media (prefers-reduced-motion: no-preference) {
-      &::after {
-        transform: scale(1.13);
-      }
-    }
-  }
 }
+
