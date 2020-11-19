@@ -1,17 +1,27 @@
 .site-footer {
  margin-right: 150px; 
- margin-left: 150px; 
+ margin-left: 125px; 
 display: flex;
-  
+  justify-content: space-between;  
 }
+
+
 
 ul {
     list-style-type: none;
 }
 
 
-
 .list-contact{
   display: block; 
   
 }
+
+a{
+text-decoration: none;  
+
+}
+
+a:visited { text-decoration: none; 
+color: black;}
+
