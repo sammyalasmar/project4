@@ -1,9 +1,9 @@
 /* Error: Undefined variable.
- *   ,
- * 6 |   margin-left: -$card-gap;
- *   |                 ^^^^^^^^^
- *   '
- *   src/sass/components/_card.scss 6:17        @import
+ *    ,
+ * 12 |   margin: $card-gap;
+ *    |           ^^^^^^^^^
+ *    '
+ *   src/sass/components/_card.scss 12:11       @import
  *   src/sass/components/_components.scss 3:11  @import
  *   src/sass/styles.scss 5:1                   root stylesheet */
 
@@ -15,5 +15,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 6 \2502    margin-left: -$card-gap;\a   \2502                  ^^^^^^^^^\a   \2575 \a   src/sass/components/_card.scss 6:17        @import\a   src/sass/components/_components.scss 3:11  @import\a   src/sass/styles.scss 5:1                   root stylesheet";
+  content: "Error: Undefined variable.\a    \2577 \a 12 \2502    margin: $card-gap;\a    \2502            ^^^^^^^^^\a    \2575 \a   src/sass/components/_card.scss 12:11       @import\a   src/sass/components/_components.scss 3:11  @import\a   src/sass/styles.scss 5:1                   root stylesheet";
 }
