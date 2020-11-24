@@ -1,6 +1,6 @@
 .site-header {
   background-color: green;
-  width: 100%;    
+  width: 100hv;    
   
   z-index: 10; 
   
@@ -8,12 +8,14 @@
 
 
 .site-name{
+  background-color: white;
   
   display: flex;
   justify-content: center;
   
   position: fixed; top: 0; left: 0; right: 0; 
   
-  margin-top: 10px;
+  margin-top: 0px;
+   z-index: 10; 
   
 }
