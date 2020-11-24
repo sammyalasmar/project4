@@ -1,15 +1,19 @@
 .site-header {
-  background-color: white;
+  background-color: green;
+  width: 100%;    
   
-  z-index: 10;
-  
+  z-index: 10; 
   
 }
 
 
 .site-name{
+  
   display: flex;
   justify-content: center;
+  
+  position: fixed; top: 0; left: 0; right: 0; 
+  
   margin-top: 10px;
   
 }
