@@ -1,4 +1,19 @@
+.cards-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  margin-left: 100px;
 
+}
+
+.card-image{
+  height: 200px;
+  width: 400px;  
+
+}
+
+
+
+/*
 .cards-list {
   display: flex;
   flex-wrap: wrap;
@@ -24,7 +39,7 @@
 
 .card {
   /*border-top: 3px solid $color-slate;*/
-  margin-left: 125px;
+  /*margin-left: 125px;
   margin-right: 25px;
   margin-top: 60px;
   
@@ -117,5 +132,5 @@
       background: linear-gradient(130deg, $color-mint, white);
     }
   }*/
-}
+/*}*/
 
