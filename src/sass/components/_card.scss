@@ -1,3 +1,10 @@
+.card{
+  
+   margin-top: 60px;
+  margin-right: 130px;
+}
+
+
 .cards-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));

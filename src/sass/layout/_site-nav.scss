@@ -6,10 +6,10 @@
   
 
   
-  .vl {
-  border-left: 2px solid black;
-  height: 500px;
-}
+   .single{
+    padding-bottom: 5px;
+    
+  }
   
 
   a {
@@ -17,8 +17,9 @@
     color: $color-text-body;
     display: inline;
     font-family: sans-serif;
-    margin-bottom: -3px;
-    padding: 25px;
+    margin-bottom: -3px;    
+    padding: 5px;
+    padding-left: 25px;
     text-decoration: none;
     transition: $transition-default;
 
