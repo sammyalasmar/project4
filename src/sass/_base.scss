@@ -19,15 +19,21 @@ main {
 
 .aboutheader{
   font-size: 35px;
-  font: serif;
-  margin-left: 100px;
   margin-top: 100px;
-  display: inline-block;
+  
+ 
+  margin-left:300px;
+  
+  
+ 
+ 
   }
 
 .aboutparagraph{
- margin-left: 100px;
-  width: 300px;
+  margin-left: 300px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
   
   
 }
@@ -35,11 +41,24 @@ main {
 .advisoryheader{
   display: flex;
   justify-position: end;
-  
+  display: flex;
+  justify-content: center;  
 
 } 
 
+.advisoryimage{
+  
+  margin-left: 300px;
+    
+  
+  
+}
+
+
+
 .advisorynames{
+ 
+  
   
   
   
