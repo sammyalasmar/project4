@@ -39,10 +39,9 @@ main {
 }
 
 .advisoryheader{
-  display: flex;
-  justify-position: end;
-  display: flex;
-  justify-content: center;  
+  
+  margin-left: 300px;
+  
 
 } 
 
@@ -57,11 +56,21 @@ main {
 
 
 .advisorynames{
- 
+ flex: wrap;
+  width: 500px;
+  margin-left: 300px;
   
   
   
   
+}
+
+
+.columns{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+  margin-left: 100px;
+
 }
 
 
