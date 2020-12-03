@@ -1,19 +1,20 @@
 {
-  "items": [{
+  "items": [
+    {
       "title": "In Transition: Illustration and its Expressive Potential",
-      "author": "Ire Aderinokun", 
+      "author": "Ire Aderinokun",
       "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2FJamil_Shammout_and_Michel_Najjar_Banner_at_Expo_1978_Claude_Lazar_1_2090_x_1533.jpg?v=1605284126425",
-    "quote": "what is this",
+      "quote": "what is this",
       "url": "https://css-tricks.com/jamstack-fugu-and-houdini/"
     },
-            
+
     {
       "title": "How Building in the Open Can Change Our Industry",
-      "author": "Amina Adewusi",  
-      "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2Fart_academyweb.jpg?v=1605284128428",      
+      "author": "Amina Adewusi",
+      "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2Fart_academyweb.jpg?v=1605284128428",
       "url": "https://css-tricks.com/how-building-in-the-open-can-change-our-industry/"
     },
-            
+
     {
       "title": "Teaching CSS",
       "author": "Rachel Andrew",
