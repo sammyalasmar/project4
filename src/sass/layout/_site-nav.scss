@@ -4,14 +4,11 @@
   position: fixed;
   margin-top: 110px;
   
-  @media screen and (max-width: 800px) {
-  .site-nav  a:not(:first-child) {display: none;}
-  a.icon {
-    float: right;
-    display: block;
-    }
   
-  }
+  
+  
+
+  
   
 
   
@@ -19,6 +16,8 @@
     padding-bottom: 5px;
     
   }
+  
+
   
   
 
@@ -50,3 +49,4 @@
     cursor: default;
   }
 }
+
