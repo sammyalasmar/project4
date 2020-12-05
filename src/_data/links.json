@@ -42,13 +42,19 @@
     {
       "title": "We are Programmers",
       "author": "Lara Schenck",
-      "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2Fart_academyweb.jpg?v=1605284128428",
+      "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2FLaborofLove.jpg?v=1607145684824",
       "url": "https://css-tricks.com/we-are-programmers/"
     },
     {
       "title": "Embracing the Universal Web",
       "author": "Miriam Suzanne",
-      "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2Fart_academyweb.jpg?v=1605284128428",
+      "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2Fbooklaunch.jpg?v=1607145696959",
+      "url": "https://css-tricks.com/embracing-the-universal-web/"
+    },    
+    {
+      "title": "Embracing the Universal Web",
+      "author": "Miriam Suzanne",
+      "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2F964097_10151962113737657_6387753089802261051_o-1024x682.jpg?v=1607146104837",
       "url": "https://css-tricks.com/embracing-the-universal-web/"
     }
   ]
