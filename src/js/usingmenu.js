@@ -1,3 +1,6 @@
+console.log("Hello!");
+
+/*
 (function() {
   // Get the menu container
   const nav = document.querySelector(".js-toggle-menu");
@@ -21,3 +24,7 @@
     trigger.setAttribute("aria-expanded", !expanded);
   };
 })();
+
+*/
+
+
