@@ -38,7 +38,7 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-input[type=submit] {
+input[type=submit], {
   width: 40%;
   background-color: red;
   color: white;
@@ -50,11 +50,11 @@ input[type=submit] {
   cursor: pointer;
 }
 
-.fname{
+/*.names{
+  position: relative;
   margin: 0 auto;
   
-  
-}
+}*/
 
 /*input[type=submit]:hover {
   background-color: #45a049;
