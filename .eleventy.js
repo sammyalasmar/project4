@@ -8,6 +8,7 @@ module.exports = function(eleventyConfig) {
     return values.slice().sort((a, b) => a.data.order - b.data.order);
   }
   eleventyConfig.addFilter("sortByPageOrder", sortByPageOrder);
+  eleventyConfig.addPassThroughCopy("./src/js");
 
   return {
     dir: {
