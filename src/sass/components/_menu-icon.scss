@@ -1,10 +1,10 @@
 .menu-icon {
     &__line {
-      background-color: black;
+      background-color: pink;
       height: 2px;
       margin: 8px auto;
       transition: all 260ms ease-in-out;
-      width: 42px;
+      width: 12px;
      
     }
   }
@@ -14,7 +14,7 @@
   // when the button is clicked, update the look of the lines
   [aria-expanded="true"] {
     .menu-icon__line {
-      $yValue: 10px;
+      $yValue: 1px;
       $deg: 45deg;
   
       &:nth-child(1) {

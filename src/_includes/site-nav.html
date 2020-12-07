@@ -12,11 +12,11 @@
         Menu
       </button>
       <ul id="site-menu" class="u-list-reset">
-        <li><a href="#">Home</a></li>
+        <li><a href="#"></a></li>
         
          {% assign nav = collections.nav | sortByPageOrder %}
     {% for item in nav %}
-    <li {% if page.url == item.url %} aria-current="page" {% endif %} class="single">
+    <li {% if page.url == item.url %} aria-current="page"{% endif %} class="single" >
       <a href="{{ item.url }}">
         {{ item.data.pageTitle }}
       </a>
