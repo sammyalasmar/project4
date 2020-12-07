@@ -5,8 +5,11 @@
       margin: 8px auto;
       transition: all 260ms ease-in-out;
       width: 42px;
+     
     }
   }
+
+
   
   // when the button is clicked, update the look of the lines
   [aria-expanded="true"] {
@@ -28,3 +31,6 @@
     }
   }
   
+
+
+
