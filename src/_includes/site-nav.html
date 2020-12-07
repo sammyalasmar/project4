@@ -1,17 +1,4 @@
-<nav class="site-nav">
-  <ul class="u-list-reset">
-    {% assign nav = collections.nav | sortByPageOrder %}
-    {% for item in nav %}
-    <li{% if page.url == item.url %} aria-current="page" {% endif %} class="single">
-      <a href="{{ item.url }}">
-        {{ item.data.pageTitle }}
-      </a>
-      </li>
-      {% endfor %}
-     
-  </ul> 
-  
-  <nav class="site-nav js-toggle-menu">
+<nav class="site-nav js-toggle-menu">
       <button
         type="button"
         class="u-button-reset js-toggle-trigger"
@@ -26,17 +13,24 @@
       </button>
       <ul id="site-menu" class="u-list-reset">
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        
+         {% assign nav = collections.nav | sortByPageOrder %}
+    {% for item in nav %}
+    <li {% if page.url == item.url %} aria-current="page" {% endif %} class="single">
+      <a href="{{ item.url }}">
+        {{ item.data.pageTitle }}
+      </a>
+      </li>
+      {% endfor %}
+   
       </ul>
     </nav>
   
   <script src="/js/usingmenu.js"></script>
  
   
-</nav>
+
+
+
 
 
