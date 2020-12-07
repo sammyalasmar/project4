@@ -15,8 +15,10 @@ body::before {
   margin-bottom: 1em;
   border-bottom: 2px solid black;
   content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"card\", \"faq\", \"site-nav\";\a   \2502                         ^^^^^^^^^^\a   \2575 \a   src/sass/components/_components.scss 1:24  @import\a   src/sass/styles.scss 5:1                   root stylesheet";
-  
-  .menu-icon__line {
+}
+
+
+.menu-icon__line {
   background-color: #444;
   height: 2px;
   margin: 8px auto;
@@ -47,9 +49,5 @@ body::before {
     display: none;
   }
 }
-
-}
-
-
 
 
