@@ -1,10 +1,10 @@
-{% for item in links.items %}
+{% for item in questions.items %}
 <li class="faq">
   <div class="faq-content">
-    <span class="faq-category">{{ item.category }}</span>
     <h2 class="faq-question">{{ item.question }}
           </h2>
-    <span class="faq-byline">By {{ item.answer }}</span>
+    <p class="faq-byline">By p
+{{ item.answer }}</p>
   </div>
 </li>
 {% endfor %}

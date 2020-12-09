@@ -2,8 +2,12 @@
   "items": [
     {
       "question": "Is Art Palestine International's entire collection available online",
-      "answer": "no"
-     
+      "answer": "no"     
+    },
+    
+    {
+      "question": "Is it OK to use images of items from the AIF collection?",
+      "answer": "Yes, if an image is used for things like this its ok"     
     }
 
   ]
