@@ -23,7 +23,7 @@ font-family: 'ABeeZee', sans-serif;
       // If the JS does not load, do not display the button
       &:not([aria-expanded]) {
        margin: 0 auto;
-        margin-left: 20px;
+        margin-left: 50px;
         
         
       }
@@ -42,8 +42,8 @@ font-family: 'ABeeZee', sans-serif;
       // If the JS does not load, do not display the button
       &:not([aria-expanded]) {
         
-        height: 300px;
-  width: 400px;          
+        height: 200px;
+  width: 300px;          
         
       }
 
