@@ -22,22 +22,23 @@
     
     {
       "question": "I am the custodian of an archive or collection of photographs. Can I donate them to the AIF and what is the procedure?",
-      "answer": "We do accept donations. Contact us at: collections@arabimagefoundation.org"     
+      "answer": "We do accept donations. Contact us at: collections@artpalestineinternational.org"     
     },
     
     {
-      "question": "Is it OK to use images of items from the AIF collection?",
-      "answer": "Yes, if an image is used for things like this its ok"     
+      "question": " I am an artist / researcher / academic / curator and I'd like to propose a project or undertake a residency.",
+      "answer": "Please contact us: hello@arabimagefoundation.org"     
     },
     
     {
-      "question": "Is it OK to use images of items from the AIF collection?",
-      "answer": "Yes, if an image is used for things like this its ok"     
+      "question": "I'd like more information about a photograph or photographer in your collection.",
+      "answer": "Please contact us: hello@arabimagefoundation.org"     
     },
     
     {
-      "question": "Is it OK to use images of items from the AIF collection?",
-      "answer": "Yes, if an image is used for things like this its ok"     
+      "question": "As an artist, if I use an image from the AIF collection as part of a work and then sell it, does this constitute commercial use?",
+      "answer": "Yes. As compensation, we request that you donate 10% of the proceeds to the AIF."     
+       
     }
 
   ]
