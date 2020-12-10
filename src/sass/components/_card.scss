@@ -3,6 +3,15 @@
    margin-top: 60px;
   margin-right: 130px;
   
+  @media (max-width: 599px) {   
+    margin-right: 90px;
+        
+         
+        
+      
+
+  }
+  
 }
 
 a {
@@ -10,11 +19,11 @@ a {
   text-decoration: none; /* no underline */
 }
 
-a :hover{
+/*a :hover{
   opacity: 50%;
   
   text-decoration: none; /* no underline */
-}
+/*}*/
 
 
 .cards-list{
@@ -23,6 +32,7 @@ a :hover{
   grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
   margin-left: 100px;
 font-family: 'ABeeZee', sans-serif;
+  
   
    @media (max-width: 599px) {
 
@@ -37,6 +47,11 @@ font-family: 'ABeeZee', sans-serif;
   
 
   }
+}
+
+.cards-list :hover{
+  opacity: 50%; 
+  
 }
 
 .card-image{
