@@ -1,13 +1,25 @@
 .aboutheader{
    
   width: 800px; 
+  
+   @media (max-width: 599px) {   
+    
+    width: 300px;           
+
+  }
  
   }
 
 
 .aboutparagraph{
  
-  width: 800px;
+  width: 700px;
+  
+    @media (max-width: 599px) {   
+    
+    width: 300px;           
+
+  }
     
 }
 
@@ -26,7 +38,14 @@
 
 .advisorynames{
  flex: wrap;
-  width: 500px; 
+  width: 800px; 
+  
+   @media (max-width: 599px) {   
+    
+    width: 300px;           
+
+  }
+    
   
   
 }
@@ -43,6 +62,12 @@
 
 .aboutinfo{
   margin-left: 300px;
+  
+  @media (max-width: 599px) {   
+    
+    margin-left: 50px;           
+
+  }
   
 }
 
