@@ -3,27 +3,32 @@
    margin-top: 60px;
   margin-right: 130px;
   
-  @media (max-width: 599px) {   
-    margin-right: 90px;
-        
-         
-        
+  @media (max-width: 899px) {   
+    
+    margin-right: 330px;       
       
 
   }
   
+  @media (max-width: 599px) {   
+    
+    margin-right: 130px;       
+      
+
+  }
+  
+  
+  
 }
+
+
 
 a {
   color: black;
   text-decoration: none; /* no underline */
 }
 
-/*a :hover{
-  opacity: 50%;
-  
-  text-decoration: none; /* no underline */
-/*}*/
+
 
 
 .cards-list{
@@ -50,7 +55,7 @@ font-family: 'ABeeZee', sans-serif;
 }
 
 .cards-list :hover{
-  opacity: 50%; 
+  opacity: 70%; 
   
 }
 
