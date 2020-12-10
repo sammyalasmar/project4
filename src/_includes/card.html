@@ -2,7 +2,7 @@
 <li class="card">
   <div class="card-content">
     <span class="card-category">{{ item.category }}</span>
-    <h2 class="card-title"> <img class="card-image" src="{{ item.image }}" alt="{{ item.quote }}">
+    <h2 class="card-title"> <a href="{{ item.url }}"><img class="card-image" src="{{ item.image }}" alt="{{ item.quote }}"</a>
       <a href="{{ item.url }}">  {{ item.title }}</a>
     </h2>
     <span class="card-byline">By {{ item.author }}</span>
