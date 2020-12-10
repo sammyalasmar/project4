@@ -10,6 +10,11 @@ a {
   text-decoration: none; /* no underline */
 }
 
+a :hover{
+  opacity: 50%;
+  text-decoration: none; /* no underline */
+}
+
 
 .cards-list{
   display: grid;

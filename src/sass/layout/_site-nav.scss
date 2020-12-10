@@ -11,7 +11,8 @@
       // If the JS does not load, do not display the button
       &:not([aria-expanded]) {
         background-color: white;
-        width: 500px;       
+        width: 500px;
+        
       
              }
  
