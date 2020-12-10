@@ -6,6 +6,20 @@
   margin-left: 20px;
   font-family: 'ABeeZee', sans-serif;
   
+    @media (max-width: 599px) {
+
+      // If the JS does not load, do not display the button
+      &:not([aria-expanded]) {
+        background-color: white;
+        width: 500px;
+       
+        
+        
+        
+      
+             }
+ 
+  }
   
   
   // This code here is what majes the nav diaappear
@@ -16,8 +30,10 @@
       // If the JS does not load, do not display the button
       &:not([aria-expanded]) {
         display: none;
-     }
+             }
        
+     
+     
      
      
       // Do not display the menu when the button has NOT been clicked
