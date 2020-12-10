@@ -22,7 +22,9 @@ font-family: 'ABeeZee', sans-serif;
 
       // If the JS does not load, do not display the button
       &:not([aria-expanded]) {
-        margin: 0 auto;
+       margin: 0 auto;
+        margin-left: 20px;
+        
         
       }
 
@@ -34,7 +36,18 @@ font-family: 'ABeeZee', sans-serif;
 .card-image{
   height: 300px;
   width: 400px;  
+  
+   @media (max-width: 599px) {
 
+      // If the JS does not load, do not display the button
+      &:not([aria-expanded]) {
+        
+        height: 300px;
+  width: 400px;          
+        
+      }
+
+  }
 }
 
 
