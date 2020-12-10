@@ -24,8 +24,9 @@
 */
 
 .faq-content{
-  margin-left: 100px;
+  /*margin-left: 200px;*/
   width: 70%;
+  margin: 0 auto;
   
 }
 
@@ -41,7 +42,7 @@
 }
 
 input[type=text], select {
-  width: 60%;
+  width: 90%;
   padding: 12px 20px;
   margin: 8px 0;
   
@@ -52,7 +53,7 @@ input[type=text], select {
 }
 
 input[type=submit], {
-  width: 40%;
+  width: 80%;
   background-color: green;
   color: white;
   padding: 14px 20px;
@@ -84,11 +85,18 @@ input[type=submit], {
 }
 
 .form{
-  margin-left: 300px;
+  /*margin-left: 300px;*/
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .faq-set{
+  /*display: flex;
+  justify-content: center;
+  flex-wrap: wrap;*/
   margin-top: 100px;
+  
   
 }
 
