@@ -22,23 +22,31 @@
  
   }
   
+  
+  
+  .hamburger{
+ 
+    
+    @media (max-width: 599px) {
+       font-size: 25px;
+      padding: 100px;
+      
+      
+            }  
+  }
+  
+  
+  
   #site-menu{
     
     @media (max-width: 599px) {
-      background-color:white;
-        width: 500px;
-        margin-top: 0px;
-        
+    background-color:white;
+    width: 500px;
+    margin-top: 0px;        
     text-align: center;
-    padding: 50px;
-        
-        
+    padding: 50px;      
       
-            }
-    
-   
-    
-    
+            }   
     
   }
  
