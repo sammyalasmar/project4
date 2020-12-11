@@ -1,6 +1,10 @@
 .site-header {
   /*background-color: green;*/
-  width: 100hv;    
+  width: 100hv;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
   
   z-index: 10; 
   
@@ -25,14 +29,11 @@
   display: flex;
   justify-content: center;
   
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
+  
   
   margin-top: 0;
-   z-index: 10; 
-  overflow: hidden;
+  
+  
   
 }
 
