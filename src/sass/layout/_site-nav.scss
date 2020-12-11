@@ -29,10 +29,7 @@
     
     @media (max-width: 599px) {
        font-size: 25px;
-      padding: 100px;
-      
-      
-            }  
+        }  
   }
   
   
@@ -83,27 +80,7 @@
   }
     
     
-   /*I am trying to use this code to only make the nav when opened bigger
-    [aria-expanded="true"] {
-    .site-nav {
-      
-      background-color: pink;
-        width: 500px;
-        margin-top: 30px;
-        margin-left: 10px;
     
-  
-     
-     
-  
-    
-    }
-    }
-      }
-
-     
- 
-  
   
   
   
@@ -114,6 +91,8 @@
     margin-left: 125px;
 }*/
 
+    
+    
   a {
     
     color: $color-text-body;
@@ -137,6 +116,8 @@
   }
   }
 }
+
+
 
 
 
