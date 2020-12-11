@@ -5,27 +5,29 @@
   margin-top: 80px;
   margin-left: 20px;
   font-family: 'ABeeZee', sans-serif;
+  z-index: 11; 
   
-    /*@media (max-width: 599px) {
+    @media (max-width: 599px) {
 
       // If the JS does not load, do not display the button
       &:not([aria-expanded]) {
         background-color: white;
-        width: 500px;
+        /*width: 500px;*/
         margin-top: 30px;
         margin-left: 10px;
         /*position: relative;*/
         
       
-           /*  }
+            }
  
-  }*/
+  }
   
   .site-menu{
     background-color: white;
         width: 500px;
         margin-top: -70px;
         margin-left: 10px;
+    padding-right: 500px;
     
     
     
