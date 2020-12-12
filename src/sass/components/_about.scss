@@ -1,4 +1,4 @@
-.aboutheader{
+/*.aboutheader{
    
   width: 800px; 
   
@@ -50,22 +50,24 @@
   
 }
 
+*/
 
-.about-set{
-  /*display: flex;
-  justify-content: center;
-  flex-wrap: wrap;*/
-  margin-top: 100px;
-  
-  
-}
+
+
+
+
 
 .aboutinfo{
-  margin-left: 300px;
+  margin:0 
+  margin-top: 100px;
+  /*margin-left: 300px;*/
+  font-family: 'ABeeZee', sans-serif;
+  width: 700px; 
   
   @media (max-width: 599px) {   
     
-    margin-left: 50px;           
+    margin-left: 50px;      
+    width: 300px; 
 
   }
   
@@ -89,6 +91,11 @@
   }
   
 
+}
+
+
+  
+  
 }
 
 */
