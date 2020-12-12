@@ -15,12 +15,12 @@
   
   
       <ul id="site-menu" class="u-list-reset">
-        <li><a   href="#"></a></li>
+        <li><a href="#"></a></li>
         
          {% assign nav = collections.nav | sortByPageOrder %}
     {% for item in nav %}
     <li class="hamburger" {% if page.url == item.url %} aria-current="page"{% endif %} class="single" >
-      <a  href="{{ item.url }}">
+      <a class="hovering" href="{{ item.url }}">
         {{ item.data.pageTitle }}
       </a>
       </li>
