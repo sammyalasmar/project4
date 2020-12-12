@@ -1,3 +1,20 @@
+.aboutinfo{
+  margin:0 auto;
+  margin-top: 100px;
+  /*margin-left: 300px;*/
+  font-family: 'ABeeZee', sans-serif;
+  width: 700px; 
+  
+  @media (max-width: 599px) {   
+    
+    margin-left: 50px;      
+    width: 400px; 
+
+  }
+  
+}
+
+
 /*.aboutheader{
    
   width: 800px; 
@@ -57,21 +74,7 @@
 
 
 
-.aboutinfo{
-  margin:0 
-  margin-top: 100px;
-  /*margin-left: 300px;*/
-  font-family: 'ABeeZee', sans-serif;
-  width: 700px; 
-  
-  @media (max-width: 599px) {   
-    
-    margin-left: 50px;      
-    width: 300px; 
 
-  }
-  
-}
 
 
 /*
