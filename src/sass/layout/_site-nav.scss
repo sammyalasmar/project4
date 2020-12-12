@@ -6,6 +6,7 @@
   margin-left: 20px;
   font-family: 'ABeeZee', sans-serif;
   z-index: 11; 
+  color: orange;
   
     @media (max-width: 599px) {
 
@@ -87,6 +88,12 @@
   
   
   
+a :hover{
+  color: orange;
+  
+  
+}
+
 
 
  /* .border-left {
@@ -110,16 +117,17 @@
     &:hover,
     &:focus {
       border-bottom-color: rgba($color-slate, 70%);
+      color: orange;
     }
   }
 
   [aria-current] a {
     border-bottom-color: $color-slate;
     cursor: default;
+    color: orange;
   }
   }
 }
-
 
 
 
