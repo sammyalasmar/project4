@@ -31,7 +31,9 @@
   }
   
   
-  .hamburger{    
+  .hamburger{   
+    
+    text-align: center;
 
     
  
@@ -41,6 +43,13 @@
       padding-bottom: 10px;
            
         }  
+    
+    @media (max-width: 480px) {
+       font-size: 25px;
+      padding-bottom: 10px;
+      margin-left: -30px;
+           
+        }
   }
   
   
@@ -51,9 +60,10 @@
     
     @media (max-width: 599px) {
     background-color:white;
-    width: 500px;
+    width: 599px;
+    
     margin-top: -50px;        
-    text-align: center;
+    text-align: left;
       
     padding: 50px;
       
