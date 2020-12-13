@@ -76,28 +76,30 @@ font-family: 'ABeeZee', sans-serif;
 
 */
 
-img {
-  height: 200px;
-  
-  
-  margin: 10px 0;
-}
+
+/* this lower code is for object fit, im not sure im happy with how it looks*/
 
 
 .card-image{
   
   object-fit:  scale-down;
+  width: 420px;  
+  margin: 10px 0;
   
    @media (max-width: 599px) {
 
       // If the JS does not load, do not display the button
       &:not([aria-expanded]) {
- object-fit:  scale-down;    
+ object-fit:  scale-down; 
+        width: 320px; 
         
       }
+     
+  
 
   }
 }
+
 
 
 
