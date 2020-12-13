@@ -4,7 +4,7 @@
       "title": "The International Art Exhibition for Palestine",
       "author": "Michel Najjar",
       "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2FJamil_Shammout_and_Michel_Najjar_Banner_at_Expo_1978_Claude_Lazar_1_2090_x_1533.jpg?v=1605284126425",
-      "quote": "what is this",
+      "alt": "men lettering sign for exhibition",
       "url": "https://css-tricks.com/jamstack-fugu-and-houdini/"
     },
 
@@ -12,6 +12,7 @@
       "title": "Join us for Jerusalem Lives",
       "author": "Amina Adewusi",
       "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2Fart_academyweb.jpg?v=1605284128428",
+      "alt": "men lettering sign for exhibition",
       "url": "https://css-tricks.com/how-building-in-the-open-can-change-our-industry/"
     },
 
@@ -19,42 +20,49 @@
       "title": "Exhibition, Book Launch and Concert",
       "author": "Rachel Andrew",
       "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2Funnamed.jpg?v=1605284819502",
+      "alt": "men lettering sign for exhibition",
       "url": "https://css-tricks.com/teaching-css/"
     },
     {
       "title": "Bethlehem Beyond the Wall: Photographs Art and Artifacts 1890-2017",
       "author": "Andy Bell",
       "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2Fcc254348-b490-44e9-91a8-a8a6c99fb9f1.jpg?v=1605284893254",
+      "alt": "men lettering sign for exhibition",
       "url": "https://css-tricks.com/the-future-is-bright-because-the-future-is-static/"
     },
     {
       "title": "Painting Gaza from the Sky",
       "author": "Tawfik Gebreel",
       "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2F1378620_1721373708086969_8219058880044990850_n.jpg?v=1605284909555",
+      "alt": "men lettering sign for exhibition",
       "url": "https://css-tricks.com/its-my-job-and-yours/"
     },
     {
       "title": "Desire in Diaspora",
       "author": "Emily Jacir",
       "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2Femily_jacir_woman_to_woman_1024x768.jpg?v=1605284916719",
+      "alt": "men lettering sign for exhibition",
       "url": "https://css-tricks.com/growing-accessibility-conversations/"
     },
     {
       "title": "Labour of Love: New Approaches to Palestinian",
       "author": "Lara Schenck",
       "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2FLaborofLove.jpg?v=1607145684824",
+      "alt": "men lettering sign for exhibition",
       "url": "https://css-tricks.com/we-are-programmers/"
     },
     {
       "title": "Book Launch",
       "author": "Noor Abuarafeh",
       "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2Fbooklaunch.jpg?v=1607145696959",
+      "alt": "men lettering sign for exhibition",
       "url": "https://css-tricks.com/embracing-the-universal-web/"
     },
     {
       "title": "AL Ma’mal Talks  Samia Halaby | Liberation Art of Palestine | April 10th2019| 6:00PM",
       "author": "Miriam Suzanne",
       "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2F964097_10151962113737657_6387753089802261051_o-1024x682.jpg?v=1607146104837",
+      "alt": "men lettering sign for exhibition",
       "url": "https://css-tricks.com/embracing-the-universal-web/"
     }
   ]
