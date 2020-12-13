@@ -54,12 +54,12 @@ font-family: 'ABeeZee', sans-serif;
   
 }
 
-/*
+
 
 .card-image{
   height: 300px;
   width: 400px;  
-  padding: 10px; delete this to align the image and header if you keep this
+  /*padding: 10px;*/ /*delete this to align the image and header if you keep this*/
   
    @media (max-width: 599px) {
 
@@ -74,12 +74,12 @@ font-family: 'ABeeZee', sans-serif;
   }
 }
 
-*/
+
 
 
 /* this lower code is for object fit, im not sure im happy with how it looks*/
 
-
+/*
 .card-image{
   
   object-fit:  scale-down;
@@ -99,6 +99,8 @@ font-family: 'ABeeZee', sans-serif;
 
   }
 }
+
+*/
 
 
 
