@@ -54,10 +54,12 @@ font-family: 'ABeeZee', sans-serif;
   
 }
 
+/*
+
 .card-image{
   height: 300px;
   width: 400px;  
-  padding: 10px;
+  padding: 10px; delete this to align the image and header if you keep this
   
    @media (max-width: 599px) {
 
@@ -66,6 +68,31 @@ font-family: 'ABeeZee', sans-serif;
         
         height: 200px;
   width: 300px;          
+        
+      }
+
+  }
+}
+
+*/
+
+img {
+  height: 200px;
+  
+  
+  margin: 10px 0;
+}
+
+
+.card-image{
+  
+  object-fit:  scale-down;
+  
+   @media (max-width: 599px) {
+
+      // If the JS does not load, do not display the button
+      &:not([aria-expanded]) {
+ object-fit:  scale-down;    
         
       }
 
