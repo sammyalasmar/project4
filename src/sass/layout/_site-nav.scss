@@ -23,9 +23,21 @@
  
   }
   
+  
+  
    .hovering:hover{
     
     opacity: 40%;
+     border-bottom: 2px solid;
+    color: $color-text-body;
+    display: inline;
+     
+     [aria-current] .hovering {
+       border-bottom: 2px solid;
+    border-bottom-color: $color-slate;
+    cursor: default;
+    
+  }
      
  
   }
@@ -110,44 +122,12 @@
     
     
     
+
+    
+  }
+  }
+    
   
-  
-
-
-
- /* .border-left {
-    border-left: 2px solid black;
-    margin-left: 125px;
-}*/
-
-    
-    
-  a {
-    border-bottom: 2px solid;
-    color: $color-text-body;
-    display: inline;
-    font-family: sans-serif;
-    margin-bottom: -3px;    
-    padding: 5px;
-    padding-left: 25px;
-    text-decoration: none;
-    transition: $transition-default;
-
-    &:hover,
-    &:focus {
-      border-bottom-color: rgba($color-slate, 70%);
-      
-    }
-  }
-
-  [aria-current] a {
-    border-bottom-color: $color-slate;
-    cursor: default;
-    
-  }
-  }
-}
-
 
 
 
