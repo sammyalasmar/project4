@@ -33,33 +33,21 @@ a {
   grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
   column-gap: 80px;
   margin-left: 100px;
-  /*padding-right: 10px;*/
+  /*padding-right: 10px;*/  
+  font-family: 'ABeeZee', sans-serif;  
   
-  
-font-family: 'ABeeZee', sans-serif;  
-  
-   @media (max-width: 599px) {
-
-      // If the JS does not load, do not display the button
-      &:not([aria-expanded]) {
+   @media (max-width: 599px) {     
        margin: 0 auto;
-        margin-left: 50px;
-        
-        
-      }
-
-  }
+        margin-left: 50px; 
+       }
   
-  @media (min-width: 1280px) {
-
-      // If the JS does not load, do not display the button
-      &:not([aria-expanded]) {
+  @media (min-width: 1280px)  {
         
-   column-gap: 50px;       
+   column-gap: 50px;      
         
       }
      }
-}
+
 
 .cards-list :hover{
   opacity: 70%; 
@@ -75,25 +63,13 @@ font-family: 'ABeeZee', sans-serif;
   
    @media (max-width: 599px) {
 
-      // If the JS does not load, do not display the button
-      &:not([aria-expanded]) {
-        
-        height: 200px;
-  width: 300px;          
-        
-      }
-     
+            height: 200px;
+            width: 300px;          
   }
      
       @media (min-width: 1281px) {
-
-      // If the JS does not load, do not display the button
-      &:not([aria-expanded]) {
-        
         height: 280px;
-  width: 375px;          
-        
-      }
+        width: 375px; 
      
   }
 }
