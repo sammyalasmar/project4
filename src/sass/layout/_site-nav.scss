@@ -32,14 +32,16 @@
     color: $color-text-body;
     display: inline;
      
-     [aria-current] .hovering {
+     
+     
+ 
+  }
+  
+  [aria-current] .hovering {
        border-bottom: 2px solid;
     border-bottom-color: $color-slate;
     cursor: default;
     
-  }
-     
- 
   }
   
   
