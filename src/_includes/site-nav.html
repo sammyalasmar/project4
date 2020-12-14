@@ -14,10 +14,8 @@
       </button>
   
   
-      <ul id="site-menu" class="u-list-reset">
-        <li><a href="#"></a></li>
-        
-         {% assign nav = collections.nav | sortByPageOrder %}
+    <ul id="site-menu" class="u-list-reset">        
+    {% assign nav = collections.nav | sortByPageOrder %}
     {% for item in nav %}
     <li class="hamburger" {% if page.url == item.url %} aria-current="page"{% endif %} class="single" >
       <a class="hovering" href="{{ item.url }}">
