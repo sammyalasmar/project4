@@ -31,9 +31,11 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 2fr)); /*was 420 and 1fr*/
   grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+  column-gap: 80px;
   margin-left: 100px;
-  column-gap: 50px;
-  padding: 10px;
+  padding-right: 10px;
+  
+  
 font-family: 'ABeeZee', sans-serif;  
   
    @media (max-width: 599px) {
@@ -57,8 +59,8 @@ font-family: 'ABeeZee', sans-serif;
 
 
 .card-image{
-  height: 300px;
-  width: 400px;  
+  height: 275px;
+  width: 325px;  
   /*padding: 10px;*/ /*delete this to align the image and header if you keep this*/
   
    @media (max-width: 599px) {
