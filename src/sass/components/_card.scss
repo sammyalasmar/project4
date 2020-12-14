@@ -61,6 +61,7 @@ a {
 .card-image{
   height: 275px;
   width: 325px;  
+  display: block;
   /*padding: 10px;*/ /*delete this to align the image and header if you keep this*/
   
    @media (max-width: 599px) {
