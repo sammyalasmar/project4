@@ -11,8 +11,8 @@
     },
     
     {
-      "question": "What if I need an image that is not available online, or not available in high enough resolution?",
-      "answer": "You can write to us at use@artpalestine.org"     
+      "question": " I've downloaded an image from your website. What is the largest size at which I can print it?",
+      "answer": "The maximum print output size is: 20x30 cm at 72dpi"     
     },
     
     {
@@ -20,19 +20,15 @@
       "answer": "Original items can be loaned to institutions and museums that can ensure adequate environments in terms of security, climate control, light control, and suitable handling.Existing reproductions of items in the collection can be loaned to spaces with uncontrolled environments. The API can also handle requests for new reproductions, for a fee."     
     },
     
+        
     {
-      "question": "I am the custodian of an archive or collection of photographs. Can I donate them to the API and what is the procedure?",
-      "answer": "We do accept donations. Contact us at: collections@artpalestineinternational.org"     
+      "question": "Do I need to inform you before reproducing an image from your collection?",
+      "answer": "We would very much like to receive information about the context of reproduction and dissemination of an image. All such information will be added to an item's biography, and displayed on the item record page."     
     },
     
     {
-      "question": " I am an artist / researcher / academic / curator and I'd like to propose a project or undertake a residency.",
-      "answer": "Please contact us: hello@artpalestineinternational.org"     
-    },
-    
-    {
-      "question": "I'd like more information about a photograph or photographer in your collection.",
-      "answer": "Please contact us: hello@artpalestineinternational.org"     
+      "question": "What does the take-down policy in your image use policy mean?",
+      "answer": "Copyright owners of photographs, or individuals portrayed in a photograph or otherwise possessing a connection to a photograph are invited to contact the AIF if they come across a reproduction of the photograph, reproduced in such a way as to be in breach of copyright laws, or potentially contravening privacy laws, or defamatory, or lacking sensitivity to issues of context."     
     },
     
     {
