@@ -109,7 +109,7 @@ input[type=submit], {
 
 /*new form*/
 
-* {box-sizing: border-box;}
+/** {box-sizing: border-box;}*/
 
 input[type=text], select, textarea {
   width: 100%;
@@ -139,16 +139,16 @@ input[type=submit]:hover {
   font-family: 'ABeeZee', sans-serif;
 }
 
-h3{
+.faq-header{
   width: 40%;
   margin: 0 auto;
   font-family: 'ABeeZee', sans-serif;
   padding-top: 50px;
   padding-bottom: 15px;
+  
    @media screen and (max-width: 600px) 
   {
     width: 80%;
-  
   }
   
 }
@@ -156,7 +156,7 @@ h3{
 .container {
   border-radius: 5px;
   /*background-color: #f2f2f2;*/
-  display: block;
+  /*display: block;*/
   padding: 20px;
   width: 40%;
   margin: 0 auto;
