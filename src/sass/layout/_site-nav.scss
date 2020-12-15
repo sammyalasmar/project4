@@ -16,7 +16,7 @@
   z-index: 11; 
   
   
-    @media (max-width: 599px) {
+    @media (max-width: 850px) {
       
         background-color: white;        
         margin-top: 30px;
@@ -54,7 +54,7 @@
   .nav-hamburger{     
  
     
-    @media (max-width: 599px) {
+    @media (max-width: 850px) {
       font-size: 25px;
       padding-bottom: 10px;
       text-align: center;       
@@ -70,7 +70,7 @@
   #site-menu{    
     
     
-    @media (max-width: 599px) {
+    @media (max-width: 850px) {
     background-color:white;
     width: 100vw;
     margin-top: -50px; 
@@ -88,7 +88,7 @@
   // This code here is what majes the nav diaappear
   
   >button{
-   @media (max-width: 599px) {
+   @media (max-width: 850px) {
 
       // If the JS does not load, do not display the button
       &:not([aria-expanded]) {
@@ -105,7 +105,7 @@
     //I want to make the menu transform when its open to the singluar button 
 
     // Effects for viewports 600px or MORE
-    @media (min-width: 600px) {
+    @media (min-width: 851px) {
       // Do not display the button at this width
       display: none;
     }
