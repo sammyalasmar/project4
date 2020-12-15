@@ -47,12 +47,13 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   font-family: 'ABeeZee', sans-serif;
+  
+  &:hover {
+     opacity: 70%;
+  }
+  
 }
 
-input[type=submit]:hover {
-  background-color: #45a049;
-  font-family: 'ABeeZee', sans-serif;
-}
 
 .form-header{
   width: 40%;
