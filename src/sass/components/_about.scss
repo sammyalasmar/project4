@@ -8,9 +8,9 @@
   }
   width: 800px; 
   
-  @media (max-width: 599px) {     
+  @media (max-width: 1000px) {     
         
-    width: 300px; /*was 400 at 600px but not sure if i shoudl just fuckoff between 480 and 1280*/
+    width: 300px; 
   }
   
 }
