@@ -1,16 +1,16 @@
 .card{
   margin: {
     top: 60px;
-    right: 130px;    
+    right: 10px;    
   }  
   
   @media (max-width: 899px) {   
     
-    margin-right: 130px;   
+    margin-right: 10px;   //was 130px
   }  
   
   @media (max-width: 599px) {     
-    margin-right: 130px; 
+    margin-right: 10px; //was 130px
   }  
   
   &:hover{
@@ -42,6 +42,7 @@ a {
         margin-left: 50px; 
       }
   
+  
   @media (min-width: 1280px)  {
         
    column-gap: 50px;      
@@ -61,7 +62,13 @@ a {
    @media (max-width: 599px) {
 
       height: 200px;
-      width: 300px;          
+      width: 300px;    
+  }
+  
+    @media (min-width: 1200px) {
+
+      height: 350px;
+      width: 450px;    
   }
      
   
