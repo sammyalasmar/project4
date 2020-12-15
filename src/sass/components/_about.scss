@@ -1,105 +1,20 @@
 .aboutinfo{
   margin:0 auto;
   margin-top: 100px;
-  /*margin-left: 300px;*/
-  font-family: 'ABeeZee', sans-serif;
+  font-family: $font-abeezee;
   width: 700px; 
   
-  @media (max-width: 599px) {   
-    
+  @media (max-width: 599px) {     
         
     width: 300px; /*was 400 at 600px but not sure if i shoudl just fuckoff between 480 and 1280*/
-
   }
   
 }
 
 
-/*.aboutheader{
-   
-  width: 800px; 
-  
-   @media (max-width: 599px) {   
-    
-    width: 300px;           
-
-  }
- 
-  }
-
-
-.aboutparagraph{
- 
-  width: 700px;
-  
-    @media (max-width: 599px) {   
-    
-    width: 300px;           
-
-  }
-    
-}
-
-.advisoryheader{
-  
-
-} 
-
-.advisoryimage{
-  
-  width: 300px;  
-  
-}
-
-
-
-.advisorynames{
- flex: wrap;
-  width: 800px; 
-  
-   @media (max-width: 599px) {   
-    
-    width: 300px;           
-
-  }
-    
-  
-  
-}
-
-*/
 
 
 
 
 
-
-
-
-
-/*
-
-.columns{
-  
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
-  margin-left: 10px;
-  margin: 200px;
-  margin-top: 100px;
-  
-  @media screen and (max-width: 600px) 
-  {
-    margin-left: 50px;
-    
-  }
-  
-
-}
-
-
-  
-  
-}
-
-*/
 

@@ -34,11 +34,8 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(320px, 2fr)); /*was 420 and 1fr*/
   grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
   column-gap: 80px;
-  
   margin-left: 100px;
-  
-  /*padding-right: 10px;*/  
-  font-family: 'ABeeZee', sans-serif;  
+  font-family: $font-abeezee;
   
    @media (max-width: 599px) {     
        margin: 0 auto;
