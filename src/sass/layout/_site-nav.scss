@@ -2,30 +2,27 @@
   background-color: white;
   display: inline-block;
   position: fixed;
-  margin-top: 80px;
-  margin-left: 20px;
-  font-family: 'ABeeZee', sans-serif;
+  margin:{
+      top: 80px;
+      left: 20px;    
+    
+  }  
+  font-family: $font-abeezee;
   z-index: 11; 
   
   
     @media (max-width: 599px) {
-
-      // If the JS does not load, do not display the button
-      &:not([aria-expanded]) {
-        background-color: white;
-        /*width: 500px;*/
-        margin-top: 30px;
-        margin-left: 10px;
-        /*position: relative;*/
-        
       
-            }
+        background-color: white;        
+        margin-top: 30px;
+        margin-left: 10px; 
+            
  
   }
   
   
   
-   .hovering:hover{
+  .hovering:hover{
     
     opacity: 40%;
      border-bottom: 2px solid;
@@ -64,8 +61,7 @@
   
   
   
-  #site-menu{
-    
+  #site-menu{    
     
     
     @media (max-width: 599px) {
@@ -74,8 +70,7 @@
     margin-top: -50px;        
     text-align: left;
     padding: 50px;
-    border-bottom: solid black 5px;
-      
+    border-bottom: solid black 5px;      
       
             }   
     
@@ -92,10 +87,7 @@
       // If the JS does not load, do not display the button
       &:not([aria-expanded]) {
         display: none;
-             }
-       
-     
-     
+             }     
      
      
       // Do not display the menu when the button has NOT been clicked
