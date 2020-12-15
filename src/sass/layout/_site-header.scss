@@ -10,19 +10,6 @@
   
 }
 
-/*
-#site-menu{
-    background-color: black;
-        width: 500px;
-        margin-top: -70px;
-        margin-left: 10px;
-    
-    
-    
-  }
-
-*/
- 
 
 .header-size{
   
@@ -30,32 +17,24 @@
   
   @media (max-width: 599px) {
 
-      width: 250px;
-                
+      width: 250px;              
       
-             }
-}
+          }
+    }
+
+
 
 .site-name{
-  background-color: white;
-  
+  background-color: white;  
   display: flex;
-  justify-content: center;
-  
-  
-  
+  justify-content: center;  
   margin-top: 0;
-  padding-top: 20px;
-  padding-bottom: 10px;
   
-  
-  
-  
+  padding:{    
+    top: 20px;
+    bottom: 10px;      
+    
+  }  
   
 }
 
-/*
-img {
-   -webkit-filter: invert(1);
-   filter: invert(1);
-   }*/

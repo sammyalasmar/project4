@@ -1,29 +1,23 @@
 .site-footer {
  /*margin-right: 150px;*/
  /*margin-left: 125px;*/ 
-display: flex;
+  display: flex;
   background-color: black;
-    justify-content: space-around; 
+  justify-content: space-around; 
   align-content: flex-end;
   flex-wrap: wrap;
-  padding-top: 40px;
-  padding-bottom: 10px;
   
-  
-  
-
-  
-  
-  
+  padding:{
+    
+     top: 40px;
+     bottom: 10px;   
+    
+  }
   
    @media (max-width: 599px) {
-
-      // If the JS does not load, do not display the button
-      &:not([aria-expanded]) {
         margin: 0 auto;
-        display: block; 
-        
-     }
+        display: block;        
+     
   }
   
 
@@ -35,15 +29,11 @@ display: flex;
 
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
   padding: 0;
   padding-left: 70px;
-  font-family: 'ABeeZee', sans-serif;
-  color: white;
-  
-
-  
-  
+  font-family: $font-abeezee;
+  color: white;  
 }
 
 
@@ -53,15 +43,15 @@ ul {
 }
 
 a{
-text-decoration: none;  
+  text-decoration: none;  
   color: white;
 
 }
 
-a:visited { text-decoration: none; 
-color: white;
-  
-  }
+a:visited { 
+  text-decoration: none; 
+  color: white;  
+    }
         
-     }
+}
 
