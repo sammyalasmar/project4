@@ -5,22 +5,21 @@
   margin-top: 90px;*/  
   font: {
     family: $font-abeezee;
-    size:45px;
+    size: 45px;
     color: $color-offblack;    
   }
-   width: 50%;
+  
+  width: 50%;
   margin: 0 auto;
   text-align: center;
   
-  /*padding-bottom: 50px;*/
-  
-  
 }
+
 
 .display404{
   font: {
     family: $font-abeezee;
-    size:45px;
+    size:85px;
     color: $color-offblack;    
   }
   
@@ -28,8 +27,6 @@
   justify-content: center;
   align-items: center;
   margin-top: 200px;
-  font-family: $font-abeezee;
-  color: $color-offblack;
   font-size: 85px;  
   
 }
