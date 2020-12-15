@@ -27,6 +27,8 @@ a {
 
 
 
+
+
 .cards-list{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 2fr)); /*was 420 and 1fr*/
@@ -51,10 +53,10 @@ a {
      }
 
 
-/*.card:hover{
+.card:hover{
    opacity: 70%;
   
-}*/
+}
 
 
 
