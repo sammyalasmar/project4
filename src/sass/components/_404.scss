@@ -8,17 +8,19 @@
   width: 50%;
   margin: 0 auto;
   text-align: center;
+  color: $color-offblack;
   /*padding-bottom: 50px;*/
   
   
 }
 
 .display404{
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 200px;
   font-family: $font-abeezee;
+  color: $color-offblack;
   font-size: 85px;
   
   
