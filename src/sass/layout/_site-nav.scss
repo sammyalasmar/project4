@@ -4,9 +4,9 @@
   position: fixed;
   margin:{
       top: 80px;
-      left: 20px;    
-    
+      left: 20px;       
   }  
+  
   font-family: $font-abeezee;
   z-index: 11; 
   
@@ -22,7 +22,7 @@
   
   
   
-  .hovering:hover{
+  .nav-hovering:hover{
     
     opacity: 40%;
      border-bottom: 2px solid;
@@ -32,7 +32,7 @@
  
   }
   
-  [aria-current] .hovering {
+  [aria-current] .nav-hovering {
        border-bottom: 2px solid;
     border-bottom-color: $color-slate;
     cursor: default;
@@ -40,7 +40,7 @@
   }
   
   
-  .hamburger{     
+  .nav-hamburger{     
  
     
     @media (max-width: 599px) {
@@ -50,12 +50,7 @@
            
         }  
     
-     @media (max-width: 480px) {
-      font-size: 25px;
-      padding-bottom: 10px;      
-      text-align: center;
-           
-        }
+
   }
   
   
