@@ -4,6 +4,7 @@
     right: 10px;    
   }  
   
+  
   @media (max-width: 899px) {   
     
     margin-right: 130px;   //was 130px
@@ -34,13 +35,27 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(320px, 2fr)); /*was 420 and 1fr*/
   grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
   column-gap: 80px;
+  margin: 0 auto;
   margin-left: 100px;
   font-family: $font-abeezee;
+  
+  
+ /* @media (max-width: 1236px) {
+    
+    
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    
+
+      
+  }*/
+  
   
    @media (max-width: 599px) {     
        margin: 0 auto;
         margin-left: 50px; 
       }
+  
+  
   
   
   @media (min-width: 1280px)  {
@@ -59,7 +74,7 @@ a {
   display: block;
   /*padding: 10px;*/ /*delete this to align the image and header if you keep this*/
   
-   @media (max-width: 1236px) {
+   @media (min-width: 800px) and  (max-width: 1255px) {
 
       height: 350px;
       width: 450px;    
