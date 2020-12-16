@@ -35,12 +35,15 @@ a {
 
 .cards-list{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 2fr)); /*was 420 and 1fr*/
-  grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
   column-gap: 80px;
+  font-family: $font-abeezee;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /*was 420 and 1fr*/
+  grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+  
   margin: 0 auto;
   margin-left: 100px;
-  font-family: $font-abeezee;
+  
+  
   
   
  /* @media (max-width: 1236px) {
@@ -50,31 +53,28 @@ a {
     
 
       
-  }*/
-  
-  
+  }*/ 
    @media (max-width: 599px) {     
        margin: 0 auto;
         margin-left: 50px; 
       }
+   
   
   
-  
-  
-  @media (min-width: 1280px)  {
+  /*@media (min-width: 1280px)  {
         
    column-gap: 50px;      
         
-      }
+      }*/
  }
 
 
 
 
 .card-image{
-  height: 275px;
-  width: 325px;  
   display: block;
+  height: 275px;
+  width: 325px;    
   /*margin: 0 auto;/*
   /*padding: 10px;*/ /*delete this to align the image and header if you keep this*/
   
