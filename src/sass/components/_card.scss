@@ -11,9 +11,9 @@
     margin-right: 130px;   //was 130px
   }  
   
-  @media (max-width: 599px) {     
+  /*@media (max-width: 599px) {     
     margin-right: 130px; //was 130px
-  }  
+  }    */
   
   &:hover{
    opacity: 60%;
@@ -56,7 +56,7 @@ a {
   }*/ 
    @media (max-width: 599px) {     
        margin: 0 auto;
-        margin-left: 50px; 
+        margin-left: 70px; //was 50px
       }
    
   
