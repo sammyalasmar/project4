@@ -6,8 +6,11 @@ body {
   
   background-color: white;
   color: $color-text-body;
-  font-family: "Commissioner", sans-serif;
-  font-weight: 400;
+  
+  font:{
+    family: $font-abeezee;
+    weight: 400;
+    }
   margin: 0;
 }
 

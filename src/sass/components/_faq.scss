@@ -1,18 +1,11 @@
-.faq-content{  
-  
+.faq-content{    
   font:{
     family: $font-abeezee;
     color: black;
    }  
    margin: 0 auto;
    width: 70%;
- 
-  
-  
 }
-
-
-
 .u-list-reset {
   list-style: none;
   
@@ -21,9 +14,6 @@
       bottom: 0;    
   } 
   padding-left: 0;
-  
- 
-  
 }
 
 #question-spacing{
@@ -36,7 +26,7 @@
 }
 
 
-/** {box-sizing: border-box;}*/
+
 
 input[type=text], select, textarea {
   width: 100%;
