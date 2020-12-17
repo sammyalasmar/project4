@@ -9,7 +9,22 @@
   
   @media (max-width: 1000px) {     
         
+    width: 600px; 
+  }
+  
+  @media (max-width: 700px) {     
+        
     width: 300px; 
+  }
+  
+}
+
+.link-inline{
+  font-weight: bold;
+  text-decoration: underline;
+  
+  &:hover{
+    color: yellow;
   }
   
 }
