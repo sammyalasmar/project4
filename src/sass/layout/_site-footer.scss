@@ -3,8 +3,7 @@
   background-color: black;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;     
-  
+  justify-content: space-around;   
   padding:{
     
      top: 40px;
@@ -23,20 +22,13 @@
     color: yellow;
   }
   
-
-
-
-ul {
+.list-contact{
+  display: block; 
   list-style-type: none;
   padding: 0;
   padding-left: 70px;
   font-family: $font-abeezee;
-  color: white;  
-}
-
-
-.list-contact{
-  display: block; 
+  color: white; 
   
 }
 
