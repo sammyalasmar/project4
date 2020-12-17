@@ -11,6 +11,11 @@
   margin: 0 auto;
   text-align: center;  
   width: 50%;
+  
+  @media (max-width: 590px) {     
+        
+    font-size: 35px;
+  }
  
   
 }
@@ -35,5 +40,12 @@
   }
   justify-content: center;  
   margin-top: 150px; 
+  
+  @media (max-width: 590px) {     
+        
+    font-size: 55px;
+  }
+  
+  
   
 }
