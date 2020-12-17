@@ -19,7 +19,7 @@
 
 
 a {
-  color: black;
+  color: $color-offblack;
   text-decoration: none;
 }
 
@@ -46,9 +46,7 @@ a {
   display: block;
   height: 275px;
   padding-bottom: 10px;
-  width: 325px;  
-  
-
+  width: 325px; 
   
    @media (min-width: 1142px) and  (max-width: 1255px) {
 
