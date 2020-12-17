@@ -8,10 +8,10 @@
     size: 45px;
     color: $color-offblack;    
   }
-  
-  width: 50%;
   margin: 0 auto;
-  text-align: center;
+  text-align: center;  
+  width: 50%;
+ 
   
 }
 
@@ -25,16 +25,15 @@
 }
 
 .display404{
+  
+  align-items: center;
+  display: flex;
   font: {
     family: $font-abeezee;
     size:85px;
     color: $color-offblack;    
   }
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 150px;
-  font-size: 85px;  
+  justify-content: center;  
+  margin-top: 150px; 
   
 }
