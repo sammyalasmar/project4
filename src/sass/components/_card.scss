@@ -35,7 +35,7 @@ a {
 
 .cards-list{
   display: grid;
-  column-gap: 80px;
+  column-gap: 80px;/*was 80px*/
   font-family: $font-abeezee;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /*was 420 and 1fr*/
   grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
@@ -74,7 +74,7 @@ a {
 .card-image{
   display: block;
   height: 275px;
-  width: 325px;    
+  width: 325px;    /*was 325*/
   /*margin: 0 auto;/*
   /*padding: 10px;*/ /*delete this to align the image and header if you keep this*/
   
