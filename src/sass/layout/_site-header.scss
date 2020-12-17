@@ -1,9 +1,9 @@
 .site-header {
-  width: 100hv;
-  position: fixed; 
-  top: 0; 
   left: 0; 
-  right: 0;  
+  position: fixed;   
+  right: 0; 
+  top: 0; 
+  width: 100hv;
   z-index: 10; 
   
 }
@@ -32,7 +32,6 @@
     top: 20px;
     bottom: 10px;      
     
-  }  
-  
+  }    
 }
 
