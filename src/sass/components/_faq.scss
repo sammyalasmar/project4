@@ -1,3 +1,7 @@
+.faq-container{
+  margin-top: 100px;  
+}
+
 .faq-content{     
    margin: 0 auto;
    width: 70%;
@@ -18,9 +22,7 @@
 }
 
 
-.faq-set{
-  margin-top: 100px;  
-}
+
 
 
 
@@ -28,15 +30,14 @@ input[type=text], select, textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box; 
-  padding: 12px;
-    
-  resize: vertical;
   
   margin:{
     top: 6px;
-    bottom: 16px;    
-    
+    bottom: 16px;      
   }
+  
+  padding: 12px;    
+  resize: vertical;  
   width: 100%;
   
 }
@@ -57,20 +58,26 @@ input[type=submit] {
 
 
 .form-header{
-  
-  width: 40%;
   margin: 0 auto;
   
   padding: {
-    top: 50px;
     bottom: 15px;
+    left: 20px;
+    top: 50px;    
   }
   
+  width: 40%;
   
-   @media screen and (max-width: 600px) 
-  {
+  
+  
+    
+  @media (min-width: 600px) and (max-width: 900px) {
     width: 80%;
-  }
+    }  
+  
+  @media (max-width: 600px) {
+    width: 70%;
+    }  
   
 }
 
@@ -82,11 +89,15 @@ input[type=submit] {
   margin: 0 auto;  
   padding-top: 25px;
   
-   @media screen and (max-width: 600px) 
-  {
+   @media (min-width: 600px) and (max-width: 900px) {
     width: 80%;
+    }  
   
-  }  
+  @media (max-width: 600px) {
+    width: 70%;
+    }  
+  
+  
 }
 
 
