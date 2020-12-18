@@ -4,12 +4,10 @@
     right: 10px;    
   } 
   
-  @media (max-width: 899px) {   
-    
+  @media (max-width: 899px) {       
     margin-right: 130px;   
   }  
-  
-  
+    
   &:hover{
    opacity: 60%;
   
@@ -26,16 +24,15 @@ a {
 
 .cards-list{
   display: grid;
-  column-gap: 80px;/*was 80px*/
+  column-gap: 80px;
   font-family: $font-abeezee;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /*was 420 and 1fr*/
-  grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));  
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
   margin: 0 auto;
   margin-left: 100px;
   
   
   @media (max-width: 599px) {     
-       margin: 0 auto;
+       
         margin-left: 70px; 
       }
   
@@ -68,11 +65,7 @@ a {
       width: 300px;    
   }
   
-      @media (min-width: 1281px) {
-      height: 280px;
-      width: 375px; 
-     
-  }
+
 }
 
 

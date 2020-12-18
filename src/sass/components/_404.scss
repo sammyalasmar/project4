@@ -2,11 +2,7 @@
   
   align-items: center;
   display: flex;
-  font: {
-    family: $font-abeezee;
-    size:85px;
-    color: $color-offblack;    
-  }
+  font-size: 85px;
   justify-content: center;  
   margin-top: 150px; 
   
@@ -17,11 +13,7 @@
 
 
 #error-content{
-  font: {
-    family: $font-abeezee;
-    size: 45px;
-    color: $color-offblack;    
-  }
+  font-size: 45px;
   margin: 0 auto;
   text-align: center;  
   width: 50%;
@@ -41,4 +33,13 @@
   }
 }
 
+
+.display404, #error-content{
+  
+  font: {
+    color: $color-offblack;  
+    family: $font-abeezee;       
+  }  
+  
+}
 
