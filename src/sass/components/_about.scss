@@ -1,0 +1,45 @@
+.about-container{  
+  
+  margin: 100px auto 0; 
+  width: 800px; 
+  
+  @media (max-width: 1000px) {             
+    width: 600px; 
+  }
+  
+  @media (max-width: 700px) {             
+    width: 300px; 
+  }  
+}
+
+.about-header{
+  text-decoration: underline;
+  
+}
+
+.advisory-image{  
+  width: 350px;
+  
+   @media (max-width: 600px) {     
+        
+    width: 250px; 
+  }
+}
+
+
+.link-inline{
+  font-weight: bold;
+  text-decoration: underline;
+  
+  &:hover{
+    color: yellow;
+  }
+}
+
+
+
+
+
+
+
+

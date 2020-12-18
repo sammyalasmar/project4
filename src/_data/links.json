@@ -1,0 +1,69 @@
+{
+  "items": [
+    {
+      "title": "The International Art Exhibition for Palestine",
+      "author": "Michel Najjar",
+      "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2FJamil_Shammout_and_Michel_Najjar_Banner_at_Expo_1978_Claude_Lazar_1_2090_x_1533.jpg?v=1605284126425",
+      "alt": "men lettering sign for exhibition",
+      "url": "https://www.ummelfahemgallery.com/"      
+    },
+
+    {
+      "title": "Join us for Jerusalem Lives",
+      "author": "Amina Adewusi",
+      "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2Fart_academyweb.jpg?v=1605284128428",
+      "alt": "artists drawing at a class",
+      "url": "https://www.palmuseum.org/ehxibitions/jerusalem-lives-"
+    },
+
+    {
+      "title": "Exhibition, Book Launch and Concert",
+      "author": "Jack Persekian",
+      "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2Funnamed.jpg?v=1605284819502",
+      "alt": "graphic for art work",
+      "url": "https://www.qalandiyainternational.org/"
+    },
+    {
+      "title": "Bethlehem Beyond the Wall: Photographs Art and Artifacts 1890-2017",
+      "author": "Jack Persekian",
+      "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2Fcc254348-b490-44e9-91a8-a8a6c99fb9f1.jpg?v=1605284893254",
+      "alt": "sculpture of graffiti on wall",
+      "url": "http://qattanfoundation.org/ar"
+    },
+    {
+      "title": "Painting Gaza from the Sky",
+      "author": "Tawfik Gebreel",
+      "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2F1378620_1721373708086969_8219058880044990850_n.jpg?v=1605284909555",
+      "alt": "smoke from a bomb configured into shapes",
+      "url": "https://tawfikgebreel.wordpress.com/"
+    },
+    {
+      "title": "Desire in Diaspora",
+      "author": "Emily Jacir",
+      "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2Femily_jacir_woman_to_woman_1024x768.jpg?v=1605284916719",
+      "alt": "framed photo of occupation soldier and civilian",
+      "url": "https://www.sfmoma.org/artwork/2008.20.2.A-B/"
+    },
+    {
+      "title": "Labour of Love: New Approaches to Palestinian",
+      "author": "A. M. Qattan Foundation ",
+      "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2FLaborofLove.jpg?v=1607145684824",
+      "alt": "book covers with dresses on them",
+      "url": "https://www.qalandiyainternational.org/"
+    },
+    {
+      "title": "Book Launch",
+      "author": "Noor Abuarafeh",
+      "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2Fbooklaunch.jpg?v=1607145696959",
+      "alt": "abstract graphic image of event",
+      "url": "http://www.artpalestine.org/2017/04/al-mamal-foundation-for-contemporary-art-upcoming-events/"
+    },
+    {
+      "title": "AL Ma’mal Talks  Samia Halaby | Liberation Art of Palestine | April 10th2019| 6:00PM",
+      "author": "Miriam Suzanne",
+      "image": "https://cdn.glitch.com/81ae7149-14ac-4850-b3b7-034c5373f77a%2F964097_10151962113737657_6387753089802261051_o-1024x682.jpg?v=1607146104837",
+      "alt": "artist posing in front of her art",
+      "url": "https://www.almamalfoundation.org/"
+    }
+  ]
+}

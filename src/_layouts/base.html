@@ -1,24 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>
     {% if pageTitle %}
     {{ pageTitle }} -
     {% endif %}
     {{ siteData.name }}
   </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap"
+      rel="stylesheet"
+    />
 
-  <link href="/css/styles.css" rel="stylesheet">
-</head>
+    
 
-<body>
+    <link href="/css/styles.css" rel="stylesheet" />
+  </head>
 
-  {{ content | safe }}
-
-</body>
-
+  <body>
+    {{ content | safe }}
+    
+    <!--
+     <button
+        type="button"
+        class="u-button-reset js-toggle-trigger"
+        aria-controls="site-menu"
+      >
+        <span aria-hidden="true" class="menu-icon">
+          <div class="menu-icon__line"></div>
+          <div class="menu-icon__line"></div>
+          <div class="menu-icon__line"></div>
+        </span>
+        Menu
+      </button>-->
+    
+  </body>
 </html>

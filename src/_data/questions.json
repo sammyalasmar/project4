@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "question": "Is Art Palestine International's entire collection available online",
+      "answer": "No. The API's preservation, digitization and documentation activities are ongoing. Users will be notified when new items are published online."   
+    },
+    
+    {
+      "question": "Is it OK to use images of items from the API collection?",
+      "answer": "Yes, images can be used free of charge for personal research and artistic use. If an artwork using images from the API collection is sold, 10 % of the proceeds should be paid to the API. Please refer to the Image Use Policy for detailed information."     
+    },
+    
+    {
+      "question": " I've downloaded an image from your website. What is the largest size at which I can print it?",
+      "answer": "The maximum print output size is: 20x30 cm at 72dpi"     
+    },
+    
+    {
+      "question": "Do you loan items in your collection?",
+      "answer": "Original items can be loaned to institutions and museums that can ensure adequate environments in terms of security, climate control, light control, and suitable handling.Existing reproductions of items in the collection can be loaned to spaces with uncontrolled environments. The API can also handle requests for new reproductions, for a fee."     
+    },
+    
+        
+    {
+      "question": "Do I need to inform you before reproducing an image from your collection?",
+      "answer": "We would very much like to receive information about the context of reproduction and dissemination of an image. All such information will be added to an item's biography, and displayed on the item record page."     
+    },
+    
+    {
+      "question": "What does the take-down policy in your image use policy mean?",
+      "answer": "Copyright owners of photographs, or individuals portrayed in a photograph or otherwise possessing a connection to a photograph are invited to contact the AIF if they come across a reproduction of the photograph, reproduced in such a way as to be in breach of copyright laws, or potentially contravening privacy laws, or defamatory, or lacking sensitivity to issues of context."     
+    },
+    
+    {
+      "question": "As an artist, if I use an image from the AIF collection as part of a work and then sell it, does this constitute commercial use?",
+      "answer": "Yes. As compensation, we request that you donate 10% of the proceeds to the API."     
+       
+    }
+
+  ]
+}

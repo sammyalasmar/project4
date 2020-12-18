@@ -1,0 +1,45 @@
+.display404{
+  
+  align-items: center;
+  display: flex;
+  font-size: 85px;
+  justify-content: center;  
+  margin-top: 150px; 
+  
+  @media (max-width: 590px) {           
+    font-size: 55px;
+  }    
+}
+
+
+#error-content{
+  font-size: 45px;
+  margin: 0 auto;
+  text-align: center;  
+  width: 50%;
+  
+  @media (max-width: 590px) {           
+    font-size: 35px;
+  }  
+}
+
+
+.link-home{
+  
+  text-decoration: underline;
+  
+  &:hover{
+    color:yellow;
+  }
+}
+
+
+.display404, #error-content{
+  
+  font: {
+    color: $color-offblack;  
+    family: $font-abeezee;       
+  }  
+  
+}
+

@@ -1,1 +1,115 @@
-.site-nav {}
+.site-nav {
+  background-color: white;
+  display: inline-block;
+  
+  font:{
+    family: $font-abeezee;
+    color: $color-text-body;
+  }
+    
+   margin:{
+      top: 90px;
+      left: 20px;       
+  } 
+  
+  position: fixed;
+  z-index: 11; 
+  
+  
+    @media (max-width: 850px) {
+      
+        background-color: white;        
+        margin-top: 30px;
+        margin-left: 10px;             
+ 
+  }
+  
+  .nav-bottom-spacing{
+    padding-bottom: 5px; 
+  }
+  
+  .nav-hovering:hover{
+    border-bottom: 2px solid;
+    color: $color-text-body;
+    display: inline;   
+    opacity: 40%;     
+ 
+  }
+  
+  [aria-current] .nav-hovering {
+    
+    border:{
+        bottom: 2px solid;
+        bottom-color: $color-slate;
+    }
+     
+    cursor: default;
+  }
+  
+  
+  .nav-hamburger{     
+ 
+    
+    @media (max-width: 850px) {
+      font-size: 25px;
+      padding-bottom: 10px;
+      text-align: center;       
+      
+        }   
+  }
+  
+  
+  
+  #site-menu{    
+    
+    
+    @media (max-width: 850px) {
+    background-color:white;
+    border-bottom: solid black 5px; 
+    margin-top: -50px; 
+    padding: 50px;
+    text-align: left;
+    width: 100vw;
+      
+        }   
+    
+  }
+ 
+  
+  
+  
+  // This code here is what majes the nav diaappear
+  
+  >button{
+   @media (max-width: 850px) {
+
+      // If the JS does not load, do not display the button
+      &:not([aria-expanded]) {
+        display: none;
+             }     
+     
+     
+      // Do not display the menu when the button has NOT been clicked
+      &[aria-expanded="false"]+ul {
+        display: none;
+      }
+    
+     
+    //I want to make the menu transform when its open to the singluar button 
+
+    // Effects for viewports 600px or MORE
+    @media (min-width: 851px) {
+      // Do not display the button at this width
+      display: none;
+    }
+  }
+     
+  }
+  }
+    
+  
+
+
+
+ 
+

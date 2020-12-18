@@ -2,4 +2,30 @@
   box-sizing: border-box;
 }
 
-body {}
+body {
+  
+  background-color: white;
+  color: $color-text-body;
+  
+  font:{
+    family: $font-abeezee;
+    weight: 400;
+    }
+  margin: 0;
+}
+
+main {
+  flex: 1 0 auto;
+  padding: 24px 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
